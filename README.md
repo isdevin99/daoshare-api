@@ -52,6 +52,7 @@ DaoShare 是一套兼容 Tushare Pro 协议的行情数据接口，覆盖 A 股�
 ```python
 import tushare as ts
 
+# 同一个 Key：set_token 设全局，pro_api() 建实例后再同步一次
 ts.set_token("YOUR_API_KEY")
 pro = ts.pro_api()
 pro._DataApi_token = "YOUR_API_KEY"
