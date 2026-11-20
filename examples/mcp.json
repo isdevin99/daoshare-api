@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "tushare": {
+      "url": "https://teajoin.com/mcp/?api_key=YOUR_API_KEY"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="DaoShare API">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b18"/>
+      <stop offset="0.55" stop-color="#0b1226"/>
+      <stop offset="1" stop-color="#111a33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="0.55" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <circle cx="1010" cy="40" r="220" fill="#6366f1" opacity="0.16"/>
+  <circle cx="1140" cy="300" r="190" fill="#22d3ee" opacity="0.10"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="72" y="118" fill="#e6e9f2" font-size="62" font-weight="700" letter-spacing="1">DaoShare</text>
+    <text x="72" y="166" fill="#a5b4fc" font-size="26" font-weight="500">Tushare-compatible market data API</text>
+    <text x="72" y="222" fill="#8a92a8" font-size="19">223 endpoints · 450 req/min · A-share · futures · funds · MCP ready</text>
+    <rect x="72" y="252" width="132" height="4" rx="2" fill="url(#accent)"/>
+    <text x="72" y="292" fill="#5b6478" font-size="15">https://teajoin.com</text>
+  </g>
+
+  <g transform="translate(700 58)">
+    <rect x="0" y="0" width="430" height="204" rx="18" fill="#0d1428" stroke="#1e2a4a"/>
+    <g stroke="#1b2540" stroke-width="1">
+      <line x1="24" y1="46" x2="406" y2="46"/>
+      <line x1="24" y1="86" x2="406" y2="86"/>
+      <line x1="24" y1="126" x2="406" y2="126"/>
+      <line x1="24" y1="166" x2="406" y2="166"/>
+    </g>
+    <path d="M24 160 L70 148 L112 154 L154 122 L196 132 L238 96 L280 104 L322 70 L364 78 L406 44 L406 166 L24 166 Z" fill="url(#area)"/>
+    <path d="M24 160 L70 148 L112 154 L154 122 L196 132 L238 96 L280 104 L322 70 L364 78 L406 44"
+          fill="none" stroke="url(#accent)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="406" cy="44" r="5" fill="#22d3ee"/>
+    <text x="24" y="192" fill="#5b6478" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">daily · income · moneyflow · fut_daily · fund_nav</text>
+  </g>
+</svg>
