@@ -1,18 +1,16 @@
 """Use the official Tushare SDK against DaoShare.
 
     pip install tushare
-    export DAOSHARE_TOKEN=your_api_key
     python examples/tushare_sdk.py
 """
 
-import os
-
 import tushare as ts
 
-TOKEN = os.environ.get("DAOSHARE_TOKEN", "YOUR_API_KEY")
+# 把下面的占位符换成你兑换到的 API Key（只有一个 Key）
+TOKEN = "YOUR_API_KEY"
 
-# 下面两处写的是同一个 Key，不是两个：
-# set_token 设全局 token，pro_api() 建实例后再同步到实例上。
+# 下面两处用的是同一个 TOKEN 变量，不是两个 Key：
+# SDK 要求先设全局 token，再同步到 pro_api() 创建的实例上。
 ts.set_token(TOKEN)
 pro = ts.pro_api()
 pro._DataApi_token = TOKEN
